@@ -1,0 +1,15 @@
+plaque:
+    type: Misc
+    title: Informational plaque about Jacoby's 1967 photos
+    publisher: Stiftung Reinbeckhallen
+    location: Berlin, Germany
+    date: 2020
+    parent:
+        type: Artwork
+        date: 1967
+        author: Jacoby, Max
+        parent:
+            type: Anthology
+            title: Bleibtreustraße
+            archive: Landesmuseum Koblenz
+            archive-location: Koblenz, Germany
