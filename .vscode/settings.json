@@ -1,0 +1,9 @@
+{
+    "emeraldwalk.runonsave": {
+    "commands": [
+        {
+            "match": "\\.typ$",
+            "cmd": "typst main.typ"
+        }]
+    }
+}
