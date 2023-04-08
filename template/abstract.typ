@@ -17,7 +17,7 @@
     )
   ]
 
-  par(first-line-indent: 1em)[
+  par(first-line-indent: 2em)[
     #text(fs_l4, abstract)
   ]
 
