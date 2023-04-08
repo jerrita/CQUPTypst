@@ -12,8 +12,14 @@
   set document(author: authors.map(a => a.name), title: title)
   set page(numbering: "1", number-align: center)
   set text(font: ("Times New Roman", "Songti SC"))
-  set par(leading: s_par_gap)
   show par: set block(spacing: s_par_gap)
+  show enum: set block(spacing: s_par_gap)
+  show list: set block(spacing: s_par_gap)
+  set list(indent: 2em, spacing: s_par_gap)
+  set enum(indent: 2em, spacing: s_par_gap)
+  set par(justify: true, first-line-indent: 2em)
+  set par(leading: s_par_gap)
+  
 
   show heading: it => [
     #if it.level == 1 {
@@ -88,7 +94,5 @@
 
 
   // Main body.
-  set par(justify: true, first-line-indent: 2em)
-
   body
 }
