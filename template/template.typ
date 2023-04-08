@@ -32,12 +32,14 @@
         counter(heading).display()
       }
       it.body
+      parbreak()
     } else {
       set text(fs_4)
       if it.numbering != none {
         counter(heading).display()
       }
       it.body
+      parbreak()
     }
   ]
 
