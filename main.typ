@@ -33,10 +33,12 @@
 
 #set text(fs_l4)
 #chapter_foreword
+#pagebreak()
 
 // Only main pages need numbering.
 #set heading(numbering: content_numbering)
 #chapter_main
 #set heading(numbering: none)
 
+#pagebreak()
 #chapter_tail

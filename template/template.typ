@@ -13,6 +13,7 @@
   set page(numbering: "1", number-align: center)
   set text(font: ("Times New Roman", "Songti SC"))
   set par(leading: s_par_gap)
+  show par: set block(spacing: s_par_gap)
 
   show heading: it => [
     #if it.level == 1 {
@@ -27,14 +28,17 @@
       text(fs_l4)[#linebreak()]
     } else if it.level == 3 {
       set text(fs_l3)
-      it
-      text(6pt)[#linebreak()]
+      if it.numbering != none {
+        counter(heading).display()
+      }
+      it.body
     } else {
       set text(fs_4)
-      it
-      text(6pt)[#linebreak()]
+      if it.numbering != none {
+        counter(heading).display()
+      }
+      it.body
     }
-    
   ]
 
   // TODO: Title page.
