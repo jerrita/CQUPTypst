@@ -1,4 +1,4 @@
 #let chapter_foreword = [
-= #text("前    言")
-#lorem(30)
+= 前言
+#lorem(200)
 ]

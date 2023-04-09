@@ -3,7 +3,8 @@
     "commands": [
         {
             "match": "\\.typ$",
-            "cmd": "typst main.typ"
+            "cmd": "typst compile main.typ"
         }]
-    }
+    },
+    "typst-lsp.exportPdf": "never"
 }

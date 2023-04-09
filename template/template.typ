@@ -15,8 +15,8 @@
   show par: set block(spacing: s_par_gap)
   show enum: set block(spacing: s_par_gap)
   show list: set block(spacing: s_par_gap)
-  set list(indent: 2em, spacing: s_par_gap)
-  set enum(indent: 2em, spacing: s_par_gap)
+  set list(spacing: s_par_gap) // You can add indent here it you want.
+  set enum(spacing: s_par_gap)
   set par(justify: true, first-line-indent: 2em)
   set par(leading: s_par_gap)
   
@@ -24,25 +24,24 @@
   show heading: it => [
     #if it.level == 1 {
       set align(center)
-      set text(fs_2)
+      set text(fs_3, font: ("Times New Roman", "Heiti SC"), weight: "regular")
       it
-      text(fs_l4)[#linebreak()]
+      v(1em)
+      h(2em)
     } else if it.level == 2 {
-      set align(center)
-      set text(fs_l2)
+      v(0.5em)
+      set text(fs_l3, font: ("Times New Roman", "Heiti SC"), weight: "regular")
       it
-      text(fs_l4)[#linebreak()]
+      v(1em)
+      h(2em)
     } else if it.level == 3 {
-      set text(fs_l3)
-      set par(first-line-indent: 0em)
-      if it.numbering != none {
-        counter(heading).display()
-      }
-      it.body
-      parbreak()
+      set text(fs_4, font: ("Times New Roman", "Heiti SC"), weight: "regular")
+      it
+      v(1em)
+      h(2em)
     } else {
-      set text(fs_4)
-      set par(first-line-indent: 0em)
+      set text(fs_l4)
+      // set par(first-line-indent: 0em)
       if it.numbering != none {
         counter(heading).display()
       }

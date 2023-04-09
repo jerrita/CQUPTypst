@@ -2,6 +2,8 @@
 
 一个 Typest 模板，但是大专
 
+模板参考文件: [毕业设计（论文）参考模板-校级](https://fls.tisato.live/preview?file=/attachments/毕业设计（论文）参考模板-校级.doc)
+
 ![Snapshot](./resource/snapshot.png)
 
 ## 用法
@@ -21,7 +23,7 @@ scoop install typst   # maybe, unverified
 
 3. (Optional) VSCode 安装 `Typest LSP`、`Run on Save` 插件
 4. 更改 `chapters` 的内容
-5. 运行命令 `typst main.typ`
+5. 运行命令 `typst compile main.typ`
 
 ## 限制
 > 不过你可以等随缘更新
