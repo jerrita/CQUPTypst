@@ -1,6 +1,6 @@
 # CQUPTypst
 
-一个 Typest 模板，但是大专
+一个 Typst 模板，但是大专
 
 模板参考文件: [毕业设计（论文）参考模板-校级](https://fls.tisato.live/preview?file=/attachments/毕业设计（论文）参考模板-校级.doc)
 
