@@ -34,6 +34,7 @@
       text(fs_l4)[#linebreak()]
     } else if it.level == 3 {
       set text(fs_l3)
+      set par(first-line-indent: 0em)
       if it.numbering != none {
         counter(heading).display()
       }
@@ -41,6 +42,7 @@
       parbreak()
     } else {
       set text(fs_4)
+      set par(first-line-indent: 0em)
       if it.numbering != none {
         counter(heading).display()
       }
