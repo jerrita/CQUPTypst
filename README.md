@@ -1,5 +1,7 @@
 # CQUPTypst
 
+> WARN: 该模板不是最新，如果有人需要用的话提 Issue，我在看到后会更新
+
 一个 Typst 模板，但是大专
 
 模板参考文件: [毕业设计（论文）参考模板-校级](https://fls.tisato.live/preview?file=/attachments/毕业设计（论文）参考模板-校级.doc)
